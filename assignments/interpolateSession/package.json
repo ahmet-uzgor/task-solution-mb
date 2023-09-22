@@ -1,0 +1,22 @@
+{
+  "name": "interpolatesession",
+  "version": "1.0.0",
+  "description": "Interpolate session assignment",
+  "main": "interpolate.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ahmet-uzgor/task-solution-mb.git"
+  },
+  "author": "Ahmet Üzgör",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmet-uzgor/task-solution-mb/issues"
+  },
+  "homepage": "https://github.com/ahmet-uzgor/task-solution-mb#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
