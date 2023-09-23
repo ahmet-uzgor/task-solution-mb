@@ -1,0 +1,36 @@
+.container{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+button{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: transparent;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+.widget-wrapper{
+    background-color: white;
+    border:1px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+@media (min-width: 300px) {
+    .widget-wrapper{
+        min-width: 250px;
+    }
+}
+@media (min-width: 700px) {
+    .widget-wrapper{
+        min-width: 350px;
+    }
+}
+.widget-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
