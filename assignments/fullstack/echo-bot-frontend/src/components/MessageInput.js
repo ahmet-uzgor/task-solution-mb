@@ -16,7 +16,8 @@ const MessageInput = ({setMessages, setIsLoading}) =>  {
 
             // handles submit
             setMessages(prev => [...prev, {user: 'customer', message: inputValue}])
-            const echoBotApiUrl = process.env.REACT_APP_ECHO_BOT_API_URL || '';
+            // if you want you can change with your api url
+            const echoBotApiUrl = process.env.REACT_APP_ECHO_BOT_API_URL || 'http://localhost:3001';
             const res = await fetch(`${echoBotApiUrl}/echo-message`, {
                 method: 'post',
                 body: JSON.stringify({message: inputValue}),
