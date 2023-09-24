@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './style.css'
 
 const MessageInput = ({setMessages, setIsLoading}) =>  {
     const [inputValue, setInputValue] = useState('')
@@ -17,7 +16,7 @@ const MessageInput = ({setMessages, setIsLoading}) =>  {
 
             // handles submit
             setMessages(prev => [...prev, {user: 'customer', message: inputValue}])
-            const echoBotApiUrl = process.env.ECHO_BOT_API_URL || '';
+            const echoBotApiUrl = process.env.REACT_APP_ECHO_BOT_API_URL || '';
             const res = await fetch(`${echoBotApiUrl}/echo-message`, {
                 method: 'post',
                 body: JSON.stringify({message: inputValue}),
