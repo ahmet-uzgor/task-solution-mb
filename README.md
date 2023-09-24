@@ -10,16 +10,22 @@ It includes 2 parts of task solution under assignments folder.
 
 1-) Fullstack echo app => It includes node.js backend api written with express.js & frontend written with react
 
+NOTE! = First you need to install dependenciesfor all project via
 ```
-#To run projects go to its directories & run
-# cd assignments/fullstack/echo-bot-api/ & assignments/fullstack/echo-bot-frontend/
+npm install
+```
+
+To run projects
+```
+#Go to its directories
+# cd assignments/fullstack/echo-bot-api/ & assignments/fullstack/echo-bot-frontend/ & run
 npm run start
 
-# For development working in api run
+# For development purposes in api run
 npm run dev 
 ```
 
-After running projects open http://localhost:3000 and start to use widget :)
+After running projects open http://localhost:3000 and start to use widget, echo-bot :)
 
 - API runs on 3001 PORT default
 - Frontend runs on 3000 PORT default
