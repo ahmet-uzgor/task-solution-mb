@@ -10,7 +10,7 @@ It includes 2 parts of task solution under assignments folder.
 
 1-) Fullstack echo app => It includes node.js backend api written with express.js & frontend written with react
 
-NOTE! = First you need to install dependenciesfor all project via
+NOTE! = First you need to install dependencies for all project in their project directories via
 ```
 npm install
 ```
