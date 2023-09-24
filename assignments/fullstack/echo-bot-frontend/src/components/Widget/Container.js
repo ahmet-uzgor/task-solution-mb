@@ -6,7 +6,7 @@ const WidgetContainer = () =>  {
   const [widgetOpen, setWidgetOpen] = useState(true)
   return (
     <div className="container">
-      {widgetOpen ? <Widget setWidgetOpen={setWidgetOpen}/> : <button onClick={() => setWidgetOpen(prev => !prev)}>Canli Destek</button>}
+      {widgetOpen ? <Widget setWidgetOpen={setWidgetOpen}/> : <button onClick={() => setWidgetOpen(prev => !prev)}>Live Support</button>}
     </div>
   );
 }
