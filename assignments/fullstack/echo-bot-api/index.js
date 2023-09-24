@@ -4,12 +4,12 @@ const bodyParser = require("body-parser");
 const app = express();
 
 // App configs for request data parsing & cors
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.post("/echoMessage", (req, res) => {
+app.post("/echo-message", (req, res) => {
 
     const { message } = req.body;
 
